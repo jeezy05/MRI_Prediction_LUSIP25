@@ -644,15 +644,13 @@ with gr.Blocks(
                     maximum=100,
                     value=50,
                     step=1,
-                    show_label=False,
-                    container=False
+                    show_label=False
                 )
                 slice_value = gr.Textbox(
                     value="50",
                     lines=1,
                     max_lines=1,
-                    interactive=True,
-                    container=False
+                    interactive=True
                 )
             
             gr.HTML(
